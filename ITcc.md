@@ -9,6 +9,8 @@
 - Literature reference managers
 
 - Linux/Mac/Unix command line 
+[https://www.virtualbox.org](https://www.virtualbox.org)
+[https://www.ubuntu.com](https://www.ubuntu.com)
 
 [http://swcarpentry.github.io/shell-novice/](http://swcarpentry.github.io/shell-novice/)
 
