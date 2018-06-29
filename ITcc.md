@@ -1,10 +1,12 @@
 # Crash course on IT for IntBio students
 
 ## Mastering Linux & Command Line
-- How to get access to Linux?
-- Linux/Mac/Unix command line 
-[https://www.virtualbox.org](https://www.virtualbox.org)
-[https://www.ubuntu.com](https://www.ubuntu.com)
+- How to get access to Linux from Windows?
+ - Install [Ubuntu](https://www.ubuntu.com) on VM [https://www.virtualbox.org](https://www.virtualbox.org)
+ - Live USB stick https://www.howtogeek.com/howto/linux/create-a-bootable-ubuntu-usb-flash-drive-the-easy-way/
+ - SSH remotely to a lab server or AWS instance
+- Launching an instance in Amazon web services
+- SSH
 - Mastering Linux Shell http://swcarpentry.github.io/shell-novice/
 
 ## Introduction to Git/ GitHub
