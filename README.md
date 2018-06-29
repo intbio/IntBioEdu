@@ -1,15 +1,22 @@
 # Educational Materials on Integrative Biology
+
+## Introductory courses
 - [Crash course on IT for Biology Students](ITcc.md)
 
-## Mastering Linux & Command Line
-- How to get access to Linux?
-- Mastering Linux Shell http://swcarpentry.github.io/shell-novice/
+## Advanced computer literacy: topics worth learning and materials
 
-## Introduction to Git
+### Linux & Command Line
+- Linux architecture
+- Bash/Tmux
+- Clusters & Supercomuting
+- AWS
 
-## Introduction to Python
+### Git/GitHub
 
-## Data analysis and plotting
+### Python
+### R
+### Data analysis and plotting
 
-## Introduction to R
+## Physcis
 
+## Maths & Statistics
