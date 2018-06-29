@@ -30,5 +30,9 @@
 
 ## Introduction to R
 
+## Introduction to  LaTeX
+
+## Introduction to  Web technologies
+
 
 
