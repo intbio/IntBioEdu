@@ -1,2 +1,2 @@
-# IntBioEdu - Educational notes on Integrative Biology
+Educational Materials on Integrative Biology
 - [Crash course on IT for IntBio Students](ITcc.md)
