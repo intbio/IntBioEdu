@@ -5,8 +5,12 @@
   - Install [Ubuntu](https://www.ubuntu.com) on VM [https://www.virtualbox.org](https://www.virtualbox.org)
   - Live USB stick https://www.howtogeek.com/howto/linux/create-a-bootable-ubuntu-usb-flash-drive-the-easy-way/
   - SSH remotely to a lab server or AWS instance
-- Launching an instance in Amazon web services
-- SSH
+- Launching an instance in Amazon web services https://youtu.be/GQCIKXwLudg (is free for the first year, but requires a credit card for registration)
+- To connect to a Linux machine you need its address, username, password or security key.
+  - Example, machine to try for today: address - will be emailed, username - , samle key - [see this file](samplekey.pem).
+- SSH: on Windows install PuTTy https://www.putty.org.
+- Mac and Linux have build in SSH.
+- SSH keys.
 - Mastering Linux Shell http://swcarpentry.github.io/shell-novice/
 
 ## Introduction to Git/ GitHub
