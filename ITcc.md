@@ -10,7 +10,7 @@
   - Example, machine to try for today: address - will be emailed, username - ubuntu, sample key - [see this file](samplekey.pem).
 - SSH: on Windows install PuTTy https://www.putty.org  , https://youtu.be/1wQ8wQfa7lw
 - Mac and Linux have built in SSH
-``` ssh -i samplekey.pem ubuntu@server_address ```
+``` ssh -i samplekey.pem ubuntu@server_address ``` , set correct permission before ```chmod 400 samplekey.pem```
 - SSH keys.
 - Mastering Linux Shell http://swcarpentry.github.io/shell-novice/
 
