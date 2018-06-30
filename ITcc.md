@@ -19,7 +19,7 @@
 - [http://github.com](http://github.com)
  [http://swcarpentry.github.io/git-novice/](http://swcarpentry.github.io/git-novice/)
  - GitHub
- - Making your lab web-page via GitHub
+ - Making your lab web-page via GitHub, here are [instructions](gitpage_instr.md) (in Russian).
 
 ## Literature management
 - Literature searching
