@@ -8,7 +8,7 @@
 - Launching an instance in Amazon web services https://youtu.be/GQCIKXwLudg (is free for the first year, but requires a credit card for registration)
 - To connect to a Linux machine you need its address, username, password or security key.
   - Example, machine to try for today: address - will be emailed, username - ubuntu, sample key - [see this file](samplekey.pem).
-- SSH: on Windows install PuTTy https://www.putty.org  , https://youtu.be/1wQ8wQfa7lw
+- SSH: on Windows install PuTTy https://www.putty.org  , https://youtu.be/1wQ8wQfa7lw , before connecting you will need to covert the sample key file in a format recognized by PuTTY, use PuTTYgen and follow these instructions https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html?icmpid=docs_ec2_console 
 - Mac and Linux have built in SSH
 ``` ssh -i samplekey.pem ubuntu@server_address ``` , set correct permission before ```chmod 400 samplekey.pem```
 - Transfer files: Windows - WinSCP https://winscp.net/eng/download.php , Linux/Mac use ```scp``` command or Mindnight Commander https://midnight-commander.org .
