@@ -11,7 +11,8 @@
 - SSH: on Windows install PuTTy https://www.putty.org  , https://youtu.be/1wQ8wQfa7lw
 - Mac and Linux have built in SSH
 ``` ssh -i samplekey.pem ubuntu@server_address ``` , set correct permission before ```chmod 400 samplekey.pem```
-- SSH keys.
+- Transfer files: Windows - WinSCP https://winscp.net/eng/download.php , Linux/Mac use ```scp``` command or Mindnight Commander https://midnight-commander.org .
+- Generating your own SSH keys: Windows - PuTTYgen, Linux/Mac - ```ssh-keygen```
 - Mastering Linux Shell http://swcarpentry.github.io/shell-novice/
 
 ## Introduction to Git/ GitHub
