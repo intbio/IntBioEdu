@@ -7,9 +7,10 @@
   - SSH remotely to a lab server or AWS instance
 - Launching an instance in Amazon web services https://youtu.be/GQCIKXwLudg (is free for the first year, but requires a credit card for registration)
 - To connect to a Linux machine you need its address, username, password or security key.
-  - Example, machine to try for today: address - will be emailed, username - , samle key - [see this file](samplekey.pem).
-- SSH: on Windows install PuTTy https://www.putty.org.
-- Mac and Linux have build in SSH.
+  - Example, machine to try for today: address - will be emailed, username - ubuntu, sample key - [see this file](samplekey.pem).
+- SSH: on Windows install PuTTy https://www.putty.org  , https://youtu.be/1wQ8wQfa7lw
+- Mac and Linux have built in SSH
+``` ssh -k samplekey.pem ubuntu@server_address ```
 - SSH keys.
 - Mastering Linux Shell http://swcarpentry.github.io/shell-novice/
 
