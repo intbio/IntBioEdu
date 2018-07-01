@@ -13,7 +13,7 @@
 ``` ssh -i samplekey.pem ubuntu@server_address ``` , set correct permission before ```chmod 400 samplekey.pem```
 - Transfer files: Windows - WinSCP https://winscp.net/eng/download.php , Linux/Mac use ```scp``` command or Mindnight Commander https://midnight-commander.org .
 - Generating your own SSH keys: Windows - PuTTYgen, Linux/Mac - ```ssh-keygen```
-- Forwarding graphics: Windows - install X server https://sourceforge.net/projects/xming/ , launch, in PuTTy enable X11 forwarding.  Linux/Mac just add ```-X``` option to ssh command. Testing type ```xclock``` in terminal.
+- Forwarding graphics: Windows - install X server https://sourceforge.net/projects/xming/ , launch, in PuTTy enable X11 forwarding.  Linux/Mac just add ```-X``` option to ssh command. Mac install XQuartz beforehand https://www.xquartz.org . Testing type ```xclock``` in terminal.
 - Mastering Linux Shell http://swcarpentry.github.io/shell-novice/
 
 ## Introduction to Git/ GitHub
