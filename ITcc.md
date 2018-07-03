@@ -2,7 +2,7 @@
 
 ## Mastering Linux & Command Line
 - How to get access to Linux from Windows?
-  - Install [Ubuntu](https://www.ubuntu.com) on VM [https://www.virtualbox.org](https://www.virtualbox.org)
+  - Install [Ubuntu](https://www.ubuntu.com) on  VM [https://www.virtualbox.org](https://www.virtualbox.org)
   - Live USB stick https://www.howtogeek.com/howto/linux/create-a-bootable-ubuntu-usb-flash-drive-the-easy-way/
   - SSH remotely to a lab server or AWS instance
 - Launching an instance in Amazon web services https://youtu.be/GQCIKXwLudg (is free for the first year, but requires a credit card for registration)
