@@ -15,12 +15,21 @@
 - Generating your own SSH keys: Windows - PuTTYgen, Linux/Mac - ```ssh-keygen```
 - Forwarding graphics: Windows - install X server https://sourceforge.net/projects/xming/ , launch, in PuTTy enable X11 forwarding.  Linux/Mac just add ```-X``` option to ssh command. Mac install XQuartz beforehand https://www.xquartz.org . Testing type ```xclock``` in terminal.
 - Mastering Linux Shell http://swcarpentry.github.io/shell-novice/
+- [Введение в Linux](https://stepik.org/course/73) - this course by [Bioinformatics Institute](https://bioinf.me/) will make you familiar with basics of Linux.
 
 ## Introduction to Git/ GitHub
 - [http://github.com](http://github.com)
+
+
  [http://swcarpentry.github.io/git-novice/](http://swcarpentry.github.io/git-novice/)
+ 
+ [Youtube tutorials](https://www.youtube.com/user/GitHubGuides/playlists)
  - GitHub
+ 
+ [GitHub Learning Lab](https://lab.github.com/) - the Learning Lab bot 
  - Making your lab web-page via GitHub, here are [instructions](gitpage_instr.md) (in Russian).
+ 
+ [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 
 ## Literature management
 - Literature searching
