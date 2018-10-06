@@ -32,6 +32,7 @@ You'll need an acceess to a Linux machine.
 
 
 ### Mastering Linux command line and coreutils
+- List of notions and commands to be familiar with [here](linux_topics.md).
 #### Suggested tutorials/courses
 - Into to basic terminal commands [here](https://maker.pro/linux/tutorial/basic-linux-commands-for-beginners).
 - Mastering Linux Shell http://swcarpentry.github.io/shell-novice/
@@ -40,6 +41,11 @@ You'll need an acceess to a Linux machine.
 - apt-get tutorial [here](https://itsfoss.com/apt-get-linux-guide/)
 - For enabling the universe repository see [here](https://fabianlee.org/2016/09/18/ubuntu-enabling-the-ubuntu-universe-repository/). It contains many community maintained programs.
 
+#### Some examples and problems for solving
+- 
+
+#### Quiz
+ (under development)
 
 ## Introduction to Git/ GitHub
 - [http://github.com](http://github.com)
