@@ -33,6 +33,7 @@ You'll need an acceess to a Linux machine.
 
 ### Mastering Linux command line and coreutils
 #### Suggested tutorials/courses
+- Into to basic terminal commands [here](https://maker.pro/linux/tutorial/basic-linux-commands-for-beginners).
 - Mastering Linux Shell http://swcarpentry.github.io/shell-novice/
 - [Introduction to Linux](https://stepik.org/course/73) - this course by [Bioinformatics Institute](https://bioinf.me/) will make you familiar with basics of Linux.
 
