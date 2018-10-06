@@ -24,16 +24,15 @@ You'll need an acceess to a Linux machine.
 - Converting Linux SSH key format to PuTTy format can be done using PuTTYgen Explained [here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html?icmpid=docs_ec2_console)
 - Generating your own SSH keys: Windows - PuTTYgen, Linux/Mac - use ```ssh-keygen``` command.
 - Connect using SSH key instead of a password:
-   - Linux/Mac ``` ssh -i samplekey.pem username@server_address ``` 
+   - Linux/Mac ``` ssh -i samplekey.pem username@server_address ``` , set correct permission before ```chmod 400 samplekey.pem```
    - PuTTy - see [here](https://devops.profitbricks.com/tutorials/use-ssh-keys-with-putty-on-windows/) last image.
 
 #### Using X2GO
 - Using X2Go to conntect to a Linux machince that has X2Go installed. [Video (in Russian) on using x2Go.](https://www.youtube.com/watch?v=mUyFPNeZhm4&feature=youtu.be)
 
-, set correct permission before ```chmod 400 samplekey.pem```
-
 
 ### Mastering Linux command line and coreutils
+#### Suggested tutorials/courses
 - Mastering Linux Shell http://swcarpentry.github.io/shell-novice/
 - [Introduction to Linux](https://stepik.org/course/73) - this course by [Bioinformatics Institute](https://bioinf.me/) will make you familiar with basics of Linux.
 
