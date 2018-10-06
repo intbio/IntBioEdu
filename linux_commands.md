@@ -1,5 +1,5 @@
 # List of notions and commands in Linux to be familiar with
-- Linux vs Unix vs GNU vs POSIX
+- Linux vs Unix vs GNU vs POSIX https://en.wikipedia.org/wiki/Unix
 - Terminal vs Shell vs Command line
 - Linux file system https://www.tldp.org/LDP/intro-linux/html/sect_03_01.html
 - List of all basic GNU Core Utils [here](https://en.wikipedia.org/wiki/List_of_GNU_Core_Utilities_commands)
