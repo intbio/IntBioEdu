@@ -46,7 +46,7 @@ You'll need an acceess to a Linux machine.
 - ImageMagick
 
 #### Some examples and problems for solving
-- A bash script to count and plot the number of baby names.
+- A bash script to count and plot the number of baby names [here](babynames.md).
 
 #### Quiz
 - Check that you are familiar with all the commands [here](linux_commands.md).
