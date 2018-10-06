@@ -6,7 +6,11 @@
 - Linux pipes - see https://www.geeksforgeeks.org/piping-in-unix-or-linux/
 - ```find``` command
 - Regular expressions and ```grep``` https://ryanstutorials.net/linuxtutorial/grep.php
+- Nice list of Regular expressions 
+- ```sed``` https://en.wikipedia.org/wiki/Sed and ```awk``` https://en.wikipedia.org/wiki/AWK
 - Different types of shells ```bash sh tsh csh```
 - Environmental variables, ```export``` command https://www.digitalocean.com/community/tutorials/how-to-read-and-set-environmental-and-shell-variables-on-a-linux-vps
 - VI editor ```vi``` https://ryanstutorials.net/linuxtutorial/vi.php
 - Bash scripts https://www.linux.com/learn/writing-simple-bash-script
+- Basic program compilation ```gcc```
+- Make, Automake, CMake
