@@ -32,7 +32,7 @@ You'll need an acceess to a Linux machine.
 
 
 ### Mastering Linux command line and coreutils
-- List of notions and commands to be familiar with [here](linux_commands.md).
+- [List of notions and commands to be familiar with](linux_commands.md). Study yourself or use tutorial below.
 #### Suggested tutorials/courses
 - Into to basic terminal commands [here](https://maker.pro/linux/tutorial/basic-linux-commands-for-beginners).
 - Mastering Linux Shell http://swcarpentry.github.io/shell-novice/
@@ -40,12 +40,16 @@ You'll need an acceess to a Linux machine.
 #### Package management systems
 - apt-get tutorial [here](https://itsfoss.com/apt-get-linux-guide/)
 - For enabling the universe repository see [here](https://fabianlee.org/2016/09/18/ubuntu-enabling-the-ubuntu-universe-repository/). It contains many community maintained programs.
+#### Useful programs to be familiar with
+- GNUplot
+- ffmpeg
+- ImageMagick
 
 #### Some examples and problems for solving
-- 
+- A bash script to count and plot the number of baby names.
 
 #### Quiz
- (under development)
+- Check that you are familiar with all the commands [here](linux_commands.md).
 
 ## Introduction to Git/ GitHub
 - [http://github.com](http://github.com)
