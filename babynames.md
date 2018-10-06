@@ -41,3 +41,6 @@ gnuplot plot.plt
 chmod u+x script.sh
 ./script.sh Alex
 ```
+
+You should get something like
+![](babynames.png)
