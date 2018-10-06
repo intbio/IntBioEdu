@@ -32,7 +32,7 @@ You'll need an acceess to a Linux machine.
 
 
 ### Mastering Linux command line and coreutils
-- [List of notions and commands to be familiar with](linux_commands.md). Study yourself or use tutorial below.
+- [List of notions and commands to be familiar with](linux_commands.md). Study yourself or use tutorials below.
 #### Suggested tutorials/courses
 - Into to basic terminal commands [here](https://maker.pro/linux/tutorial/basic-linux-commands-for-beginners).
 - Mastering Linux Shell http://swcarpentry.github.io/shell-novice/
