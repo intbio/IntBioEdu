@@ -36,6 +36,10 @@ You'll need an acceess to a Linux machine.
 - Into to basic terminal commands [here](https://maker.pro/linux/tutorial/basic-linux-commands-for-beginners).
 - Mastering Linux Shell http://swcarpentry.github.io/shell-novice/
 - [Introduction to Linux](https://stepik.org/course/73) - this course by [Bioinformatics Institute](https://bioinf.me/) will make you familiar with basics of Linux.
+#### Package management systems
+- apt-get tutorial [here](https://itsfoss.com/apt-get-linux-guide/)
+- For enabling the universe repository see [here](https://fabianlee.org/2016/09/18/ubuntu-enabling-the-ubuntu-universe-repository/). It contains many community maintained programs.
+
 
 ## Introduction to Git/ GitHub
 - [http://github.com](http://github.com)
