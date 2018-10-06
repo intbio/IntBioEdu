@@ -8,6 +8,7 @@
 - Linux pipes - see https://www.geeksforgeeks.org/piping-in-unix-or-linux/
 - ```find``` command
 - Archiving with ```tar```
+- Downloading files with ```wget``` or ```curl```
 - Regular expressions and ```grep``` https://ryanstutorials.net/linuxtutorial/grep.php
 - Nice list of Regular expressions https://remram44.github.io/regex-cheatsheet/regex.html
 - ```sed``` https://en.wikipedia.org/wiki/Sed and ```awk``` https://en.wikipedia.org/wiki/AWK
