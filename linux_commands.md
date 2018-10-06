@@ -1,4 +1,6 @@
 # List of notions and commands in Linux to be familiar with
+- Linux vs Unix vs GNU vs POSIX
+- Terminal vs Shell vs Command line
 - Linux file system https://www.tldp.org/LDP/intro-linux/html/sect_03_01.html
 - List of all basic GNU Core Utils [here](https://en.wikipedia.org/wiki/List_of_GNU_Core_Utilities_commands)
   - Start with these: ``` chgrp chown chmod cp dd df ln ls mkdir mv rm touch cat md5sum sha1sum sort split wc arch date chroot du echo env factor id pwd sleep unmae who whoami```
@@ -6,7 +8,7 @@
 - Linux pipes - see https://www.geeksforgeeks.org/piping-in-unix-or-linux/
 - ```find``` command
 - Regular expressions and ```grep``` https://ryanstutorials.net/linuxtutorial/grep.php
-- Nice list of Regular expressions 
+- Nice list of Regular expressions https://remram44.github.io/regex-cheatsheet/regex.html
 - ```sed``` https://en.wikipedia.org/wiki/Sed and ```awk``` https://en.wikipedia.org/wiki/AWK
 - Different types of shells ```bash sh tsh csh```
 - Environmental variables, ```export``` command https://www.digitalocean.com/community/tutorials/how-to-read-and-set-environmental-and-shell-variables-on-a-linux-vps
