@@ -43,4 +43,8 @@ chmod u+x script.sh
 ```
 
 You should get something like
+
 ![](babynames.png)
+
+## Practive yourself
+Make a plot for your name and make it a decent plot of correct size, with axis label etc. Consult gnuplot documentation.
