@@ -4,7 +4,7 @@
 - Linux file system https://www.tldp.org/LDP/intro-linux/html/sect_03_01.html
 - List of all basic GNU Core Utils [here](https://en.wikipedia.org/wiki/List_of_GNU_Core_Utilities_commands)
   - Start with these: ``` chgrp chown chmod cp dd df ln ls mkdir mv rm touch cat md5sum sha1sum sort split wc arch date chroot du echo env factor id pwd sleep unmae who whoami```
-  - Additional commands to know ``` top bg fg nohup```
+  - Additional commands to know ``` top bg fg nohup free ps kill```
 - Linux pipes - see https://www.geeksforgeeks.org/piping-in-unix-or-linux/
 - ```find``` command
 - Archiving with ```tar```
@@ -15,5 +15,5 @@
 - Environmental variables, ```export``` command https://www.digitalocean.com/community/tutorials/how-to-read-and-set-environmental-and-shell-variables-on-a-linux-vps
 - VI editor ```vi``` https://ryanstutorials.net/linuxtutorial/vi.php
 - Bash scripts https://www.linux.com/learn/writing-simple-bash-script
-- Basic program compilation ```gcc```
-- Make, Automake, CMake
+- Basic program compilation ```gcc``` http://www.network-theory.co.uk/docs/gccintro/gccintro_9.html  https://www.geeksforgeeks.org/compiling-a-c-program-behind-the-scenes/
+- Make, Automake, CMake http://mrbook.org/blog/tutorials/make/
