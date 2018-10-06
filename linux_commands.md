@@ -4,7 +4,7 @@
 - Linux file system https://www.tldp.org/LDP/intro-linux/html/sect_03_01.html
 - List of all basic GNU Core Utils [here](https://en.wikipedia.org/wiki/List_of_GNU_Core_Utilities_commands)
   - Start with these: ``` chgrp chown chmod cp dd df ln ls mkdir mv rm touch cat md5sum sha1sum sort split wc arch date chroot du echo env factor id pwd sleep unmae who whoami```
-  - Additional commands to know ``` top bg fg nohup free ps kill```
+  - Additional commands to know ``` top bg fg nohup free ps kill head tail less```
 - Linux pipes - see https://www.geeksforgeeks.org/piping-in-unix-or-linux/
 - ```find``` command
 - Archiving with ```tar```
