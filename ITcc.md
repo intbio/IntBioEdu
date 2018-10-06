@@ -10,7 +10,7 @@ You'll need an acceess to a Linux machine.
 - To connect to a Linux machine you'll need its address, username, password or security key.
 - On Windows install PuTTy https://www.putty.org  , https://youtu.be/1wQ8wQfa7lw 
 - Mac and Linux have built in SSH client
-``` ssh -i samplekey.pem ubuntu@server_address ``` 
+``` ssh username@server_address ``` 
 - Forwarding graphics. 
   - On Linux/Mac just add ```-X``` option to ssh command. Mac install XQuartz beforehand https://www.xquartz.org .
   - On Windows - install X server https://sourceforge.net/projects/xming/ , launch, in PuTTy enable X11 forwarding.   
@@ -19,16 +19,19 @@ You'll need an acceess to a Linux machine.
 - Windows: Install WinSCP https://winscp.net/eng/download.php
 - Linux/Mac: use ```scp``` command or Mindnight Commander https://midnight-commander.org .
 
-#### Using SCP protocol to transfer files
+#### Using SSH key authentication
+- Here is an exmaple [public key](https://github.com/intbio/IntBioEdu/blob/master/samplekey.pem) in Linux SSH format.
+- Converting Linux SSH key format to PuTTy format can be done using PuTTYgen Explained [here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html?icmpid=docs_ec2_console)
+- Generating your own SSH keys: Windows - PuTTYgen, Linux/Mac - use ```ssh-keygen``` command.
+- Connect using SSH key instead of a password:
+   - Linux/Mac ``` ssh -i samplekey.pem username@server_address ``` 
+   - PuTTy - see [here](https://devops.profitbricks.com/tutorials/use-ssh-keys-with-putty-on-windows/) last image.
 
-
-before connecting you will need to convert the sample key file in a format recognized by PuTTY, use PuTTYgen and follow these instructions https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html?icmpid=docs_ec2_console 
-- Generating your own SSH keys: Windows - PuTTYgen, Linux/Mac - ```ssh-keygen```
-
+#### Using X2GO
 - Using X2Go to conntect to a Linux machince that has X2Go installed. [Video (in Russian) on using x2Go.](https://www.youtube.com/watch?v=mUyFPNeZhm4&feature=youtu.be)
 
 , set correct permission before ```chmod 400 samplekey.pem```
-https://github.com/intbio/IntBioEdu/blob/master/samplekey.pem
+
 
 ### Mastering Linux command line and coreutils
 - Mastering Linux Shell http://swcarpentry.github.io/shell-novice/
