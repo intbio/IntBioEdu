@@ -72,6 +72,8 @@ You'll need an acceess to a Linux machine.
 
 ## Introduction to Python
 
+- https://github.com/intbio/PythonIntro
+
 - Basic Python / Jupiter notebooks http://www.intbio.org/CBsem/19Feb2018_IT.html
 
 [http://swcarpentry.github.io/python-novice-inflammation/](http://swcarpentry.github.io/python-novice-inflammation/)
