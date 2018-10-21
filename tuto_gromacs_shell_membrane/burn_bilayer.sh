@@ -8,7 +8,7 @@
 # After execution the script takes gro, ndx and topol top files (from ./ref/) and creates input files required for GROMACS (mdp)
 # as well as input script (run.pbs) to run the simulations on the mpi server ( should be adapted for your server!!!).
 # Finally, the script also creates additional *.sh scripts within of the output folder to manage simulations on the server
-# NB! Check the strings 316 and 361 of the script to adapt it for your server and version of gromacs!
+# NB! Check the strings 316 and 362 of the script to adapt it for your server and version of gromacs!
 
 #!/bin/bash
 
@@ -34,7 +34,7 @@ sim_time='1-10:30:00' # time limit of simulation: 1 day, 10 hours and 30 minutes
 
 
 
-# Here we define range of the themperature, which will be used for each simulation
+# Here we define range of the temperature, which will be used for each simulation
 mega_array=('323' '350' '400' '450' '500'); # temprerature in K
 
 
@@ -264,7 +264,7 @@ comm_mode               = linear
 comm_grps               = MEMB   SOL_ION
 ;
 refcoord_scaling        = com" > "${output}/${project}_${i}K/equil5.mdp"
-  # print mpd file for the production run of 50 ns;
+  # print mpd file for production run of 50 ns;
   printf "integrator              = md
 dt                      = 0.002
 nsteps                  = 25000000 ; 50ns test production run
@@ -319,7 +319,7 @@ refcoord_scaling        = com
 #PBS -V
 
 
-# equilibrate system step-by-step increasing pressure
+# equilibrate system step-by-step increasing temperature
 gmx grompp -f equil1.mdp -o equil_${i}K_1.tpr -c System.gro -t System.cpt -n System.ndx -p System.top -maxwarn -1
 mpirun -np \${NB_TASKS} mdrun_mpi -v -deffnm equil_${i}K_1
 gmx grompp -f equil2.mdp -o equil_${i}K_2.tpr -c equil_${i}K_1 -t equil_${i}K_1 -n System.ndx -p System.top -maxwarn -1
@@ -332,7 +332,7 @@ gmx grompp -f equil5.mdp -o equil_${i}K_5.tpr -c equil_${i}K_4 -t equil_${i}K_4 
 mpirun -np \${NB_TASKS} mdrun_mpi -v -deffnm equil_${i}K_5
 
 # run production run for 50 ns
-gmx grompp -f production_${i}K.mdp -o ${project}_${i}K_0.tpr -c equil_${i}K_10 -t equil_${i}K_10 -n System.ndx -p System.top -maxwarn -1
+gmx grompp -f production_${i}K.mdp -o ${project}_${i}K_0.tpr -c equil_${i}K_5 -t equil_${i}K_5 -n System.ndx -p System.top -maxwarn -1
 mpirun -np \${NB_TASKS} mdrun_mpi -v -deffnm ${project}_${i}K_0" > "${output}/${project}_${i}K/run.pbs"
 
 done
@@ -415,7 +415,6 @@ done
 echo "Total: ${#file_array[*]} trajectories have been collected"
 EOF
 } >"${root}/collecter.sh"
-
 
 
 chmod +x "${root}"/*.sh
